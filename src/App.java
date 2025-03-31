@@ -38,36 +38,36 @@ public class App {
                         case 1:
                             MetodoBurbuja burbuja = new MetodoBurbuja();
                             if(ordenamiento.equals("A")) {
-                                burbuja.ordenarDescAsce(arreglo, false);
+                                burbuja.ordenarDescAsce(arreglo, false, conPasos);
                             } else {
-                                burbuja.ordenarDescAsce(arreglo, true);
+                                burbuja.ordenarDescAsce(arreglo, true, conPasos);
                             }
                             imprimirArreglo(arreglo);
                             break;
                         case 2: 
                             MetodoSeleccion seleccion = new MetodoSeleccion();
                             if(ordenamiento.equals("A")) {
-                                seleccion.ordenarDescAsce(arreglo, false);
+                                seleccion.ordenarDescAsce(arreglo, false, conPasos);
                             } else {
-                                seleccion.ordenarDescAsce(arreglo, true);
+                                seleccion.ordenarDescAsce(arreglo, true, conPasos);
                             }
                             imprimirArreglo(arreglo);
                             break;
                         case 3: 
                             MetodoInsercion insercion = new MetodoInsercion();
                             if(ordenamiento.equals("A")) {
-                                insercion.ordenarDescAsce(arreglo, false);
+                                insercion.ordenarDescAsce(arreglo, false, conPasos);
                             } else {
-                                insercion.ordenarDescAsce(arreglo, true);
+                                insercion.ordenarDescAsce(arreglo, true, conPasos);
                             }
                             imprimirArreglo(arreglo);
                             break;
                             case 4: 
                             MetodoBurbujaMejorado burbujaMejorado = new MetodoBurbujaMejorado();
                             if(ordenamiento.equals("A")) {
-                                burbujaMejorado.ordenarDescAsce(arreglo, false);
+                                burbujaMejorado.ordenarDescAsce(arreglo, false, conPasos);
                             } else {
-                                burbujaMejorado.ordenarDescAsce(arreglo, true);
+                                burbujaMejorado.ordenarDescAsce(arreglo, true, conPasos);
                             }
                             imprimirArreglo(arreglo);
                             break;
@@ -91,7 +91,7 @@ public class App {
         System.out.print("Arreglo ordenado-> ");
         for(int j = 0; j < arreglo.length; j++) {
             System.out.print(arreglo[j] + " ");
-            System.out.println();
         }
+        System.out.println();
     }
 }
