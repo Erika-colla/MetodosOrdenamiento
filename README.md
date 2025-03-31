@@ -5,8 +5,8 @@
 - **Título:** Práctica de Algoritmos de Ordenamiento
 - **Asignatura:** Estructura de Datos
 - **Carrera:** Computación
-- **Estudiante:** [Tu Nombre Aquí]
-- **Fecha:** [Fecha Actual]
+- **Estudiante:** Erika Collaguazo Malla
+- **Fecha:** 30 de marzo del 2025
 - **Profesor:** Ing. Pablo Torres
 
 ---
